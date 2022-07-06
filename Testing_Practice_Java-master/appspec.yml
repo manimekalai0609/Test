@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: target/Ofsseleniumjava-1.0-jar-with-dependencies.jar
+    destination: /home
+
+hooks:
+  AfterInstall:
+    - location: scripts/RunTests.sh
+      timeout: 180

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[testRegTestCase : has Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[testRegTestCase : has Successfully Executed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-24T06:47:29Z" name="Suite" finished-at="2022-05-24T06:47:37Z" duration-ms="8305">
+    <groups>
+      <group name="Regression">
+        <method signature="DemoSmokeTestCase.testRegTestCase()[pri:0, instance:test.java.com.ofs.testcases.DemoSmokeTestCase@623a8092]" name="testRegTestCase" class="test.java.com.ofs.testcases.DemoSmokeTestCase"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-05-24T06:47:29Z" name="OFS Selenium" finished-at="2022-05-24T06:47:37Z" duration-ms="8305">
+      <class name="test.java.com.ofs.testcases.DemoSmokeTestCase">
+        <test-method is-config="true" signature="configReports(java.lang.String)[pri:0, instance:test.java.com.ofs.testcases.DemoSmokeTestCase@623a8092]" started-at="2022-05-24T06:47:29Z" name="configReports" finished-at="2022-05-24T06:47:29Z" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configReports -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.java.com.ofs.testcases.DemoSmokeTestCase@623a8092]" started-at="2022-05-24T06:47:29Z" name="openBrowser" finished-at="2022-05-24T06:47:31Z" duration-ms="2190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="getRepo()[pri:0, instance:test.java.com.ofs.testcases.DemoSmokeTestCase@623a8092]" started-at="2022-05-24T06:47:31Z" name="getRepo" finished-at="2022-05-24T06:47:31Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRepo -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:test.java.com.ofs.testcases.DemoSmokeTestCase@623a8092]" started-at="2022-05-24T06:47:31Z" name="startTest" finished-at="2022-05-24T06:47:33Z" duration-ms="1896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.ofs.testcases.DemoSmokeTestCase.testRegTestCase() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testRegTestCase()[pri:0, instance:test.java.com.ofs.testcases.DemoSmokeTestCase@623a8092]" started-at="2022-05-24T06:47:33Z" name="testRegTestCase" finished-at="2022-05-24T06:47:37Z" duration-ms="4002" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testRegTestCase : has Started Execution]]>
+            </line>
+            <line>
+              <![CDATA[testRegTestCase : has Successfully Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRegTestCase -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.java.com.ofs.testcases.DemoSmokeTestCase@623a8092]" started-at="2022-05-24T06:47:37Z" name="endTest" finished-at="2022-05-24T06:47:37Z" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegTestCase status=SUCCESS method=DemoSmokeTestCase.testRegTestCase()[pri:0, instance:test.java.com.ofs.testcases.DemoSmokeTestCase@623a8092] output=testRegTestCase : has Started Execution]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.com.ofs.testcases.DemoSmokeTestCase.testRegTestCase() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:test.java.com.ofs.testcases.DemoSmokeTestCase@623a8092]" started-at="2022-05-24T06:47:37Z" name="tearDownBrowser" finished-at="2022-05-24T06:47:37Z" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:test.java.com.ofs.testcases.DemoSmokeTestCase@623a8092]" started-at="2022-05-24T06:47:38Z" name="closeReport" finished-at="2022-05-24T06:47:38Z" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- test.java.com.ofs.testcases.DemoSmokeTestCase -->
+    </test> <!-- OFS Selenium -->
+  </suite> <!-- Suite -->
+</testng-results>
